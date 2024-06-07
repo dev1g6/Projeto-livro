@@ -1,0 +1,100 @@
+html {
+    background-color: steelblue;
+}
+
+body {
+
+    text-align: center;
+    background-color: #f3e8d4;
+    font-family: 'PT Serif', serif;
+    font-size: 100%;
+    border: solid gray 5px;
+    margin: 5% 35% 5% 35%;
+
+}
+
+div {
+    margin: 2%;
+    padding: 0.5%;
+    /* border: solid black 1px; */
+}
+
+h1 {
+    margin: 1%;
+    padding-top: 10%;
+    color: #4682b4;
+
+
+}
+
+h2 {
+    font-size: 70%;
+    
+}
+
+.flocoIcon {
+    margin-top: 20px;
+    /* <img class="flocoIcon" src="/Projeto-Livro/paginas/img/floco.png" alt="flocoNeve.png" , height="7px"> */
+}
+
+.proximaTop {
+    margin: 0%;
+    margin-top: 0;
+    margin-right: 2.88%;
+    margin-left: 2.88%;
+    margin-bottom: 0%;
+    font-size: 18px;
+}
+
+.botoesTop {
+    margin: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.botoesBot {
+    margin: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.proximaBot {
+    margin: 0%;
+    margin-top: 0;
+    margin-right: 2.88%;
+    margin-left: 2.88%;
+    margin-bottom: 0%;
+    font-size: 18px;
+}
+
+.voltarTop {
+    margin: 0;
+    margin-top: 0;
+    margin-right: 2.88%;
+    margin-left: 2.88%;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+
+.voltarBot {
+    margin: 0%;
+    margin-top: 0;
+    margin-right: 2.88%;
+    margin-left: 2.88%;
+    margin-bottom: 0%;
+    font-size: 18px;
+}
+
+.indexBotton {
+    margin: 0% 5%;
+    font-size: 20px;
+}
+
+/* footer,
+header {
+    background-color: steelblue;
+    background-color: steelblue;
+} */
