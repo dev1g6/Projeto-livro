@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As coisas que você só vê quando desacelera</title>
+    <!-- Link para CSS externo -->
+    <link rel="stylesheet" href="citacoes.css">
+
+    <style>
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>As coisas que você só vê quando desacelera
+        </h1>
+
+        <h3>Sumário</h3>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <nav>
+            <ol>
+                <li><a href="#" onclick="toggleMenu(event)">Capítulo 1</a>
+                    <ol>
+                        <li><a href="paginas/capitulo1/01-prologo.html">Prólogo</a></li>
+                        <li><a href="paginas/capitulo1/02-cap1.html">Cap.1 pt.1</a></li>
+                        <li><a href="paginas/capitulo1/03-cap1.html">Cap.1 pt.2</a></li>
+                        <li><a href="paginas/capitulo1/04-cap1.html">Cap.1 pt.3</a></li>
+                        <li><a href="paginas/capitulo1/05-cap1.html">Cap.1 pt.4</a></li>
+                    </ol>
+                </li>
+                <li><a href="#" onclick="toggleMenu(event)">Capítulo 2</a>
+                    <ol>
+                        <li><a href="paginas/capitulo2/01-cap2.html">Cap.2 pt1</a></li>
+                        <li><a href="paginas/capitulo2/02-cap2.html">Cap.2 pt.2</a></li>
+                        <li><a href="paginas/capitulo2/03-cap2.html">Cap.2 pt.3</a></li>
+                        <li><a href="paginas/capitulo2/04-cap2.html">Cap.2 pt.4</a></li>
+                    </ol>
+                </li>
+                <li><a href="#" onclick="toggleMenu(event)">Capítulo 3</a>
+                    <ol>
+                        <li><a href="paginas/capitulo3/01-cap3.html">Cap.3 pt1</a></li>
+                        <li><a href="paginas/capitulo3/02-cap3.html">Cap.3 pt.2</a></li>
+                        <li><a href="paginas/capitulo3/03-cap3.html">Cap.3 pt.3</a></li>
+                        <li><a href="paginas/capitulo3/04-cap3.html">Cap.3 pt.4</a></li>
+                    </ol>
+                </li>
+                <li><a href="#" onclick="toggleMenu(event)">Capítulo 4</a>
+                    <ol>
+                        <li><a href="paginas/capitulo4/01-cap4.html">Cap.4 pt1</a></li>
+                        <li><a href="paginas/capitulo4/02-cap4.html">Cap.4 pt.2</a></li>
+                        <li><a href="paginas/capitulo4/03-cap4.html">Cap.4 pt.3</a></li>
+                        <li><a href="paginas/capitulo4/04-cap4.html">Cap.4 pt.4</a></li>
+                    </ol>
+                </li>
+                <li><a href="#" onclick="toggleMenu(event)">Capítulo 5</a>
+                    <ol>
+                        <li><a href="paginas/capitulo5/01-cap5.html">Cap.5 pt1</a></li>
+                        <li><a href="paginas/capitulo5/02-cap5.html">Cap.5 pt.2</a></li>
+                        <li><a href="paginas/capitulo5/03-cap5.html">Cap.5 pt.3</a></li>
+                        <li><a href="paginas/capitulo5/04-cap5.html">Cap.5 pt.4</a></li>
+                    </ol>
+                </li>
+                <li><a href="#" onclick="toggleMenu(event)">Capítulo 6</a>
+                    <ol>
+                        <li><a href="paginas/capitulo6/01-cap6.html">Cap.6 pt1</a></li>
+                        <li><a href="paginas/capitulo6/02-cap6.html">Cap.6 pt.2</a></li>
+                        <li><a href="paginas/capitulo6/03-cap6.html">Cap.6 pt.3</a></li>
+                        <li><a href="paginas/capitulo6/04-cap6.html">Cap.6 pt.4</a></li>
+                    </ol>
+                </li>
+                <li><a href="#" onclick="toggleMenu(event)">Capítulo 7</a>
+                    <ol>
+                        <li><a href="paginas/capitulo7/01-cap7.html">Cap.7 pt1</a></li>
+                        <li><a href="paginas/capitulo7/02-cap7.html">Cap.7 pt.2</a></li>
+                        <li><a href="paginas/capitulo7/03-cap7.html">Cap.7 pt.3</a></li>
+                        <li><a href="paginas/capitulo7/04-cap7.html">Cap.7 pt.4</a></li>
+                    </ol>
+                </li>
+                <li><a href="#" onclick="toggleMenu(event)">Capítulo 8</a>
+                    <ol>
+                        <li><a href="paginas/capitulo8/01-cap8.html">Cap.8 pt1</a></li>
+                        <li><a href="paginas/capitulo8/02-cap8.html">Cap.8 pt.2</a></li>
+                        <li><a href="paginas/capitulo8/03-cap8.html">Cap.8 pt.3</a></li>
+                        <li><a href="paginas/capitulo8/04-cap8.html">Cap.8 pt.4</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </nav>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 M&M Enterprise. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Script JavaScript externo -->
+    <script>
+        function toggleMenu(event) {
+            event.preventDefault();
+            const submenu = event.target.nextElementSibling;
+            if (submenu) {
+                submenu.classList.toggle('visible');
+            }
+        }
+    </script>
+</body>
+
+</html>

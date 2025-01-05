@@ -1,0 +1,181 @@
+html {
+    border: solid white 2.5px;
+    background-color: steelblue;
+}
+
+body {
+
+    background-color: #f7f5d3;
+    margin: 5%;
+    border: solid black 3px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h1 {
+    padding: 18px;
+    text-align: center;
+    color: steelblue;
+    background-color: #f7f5d3;
+    margin: 0% 20%;
+    line-height: 1;
+    /* border: solid orange 1px; */
+
+}
+
+h2 {
+
+    text-align: center;
+    color: steelblue;
+    background-color: #f7f5d3;
+    margin: 0% 20%;
+    font-style: italic;
+}
+
+h3 {
+    color: steelblue;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #f7f5d3;
+    padding: 5px;
+    margin: 0% 20% 0% 20%;
+}
+
+div {
+    border-radius: 8px;
+    text-align: center;
+    font-family: "calibri";
+    font-style: italic;
+    font-size: 150%;
+    background-color: #f7f5d3;
+    margin: 0% 20%;
+
+}
+
+/* Botões página local top*/
+.botoesTop {
+    text-align: center;
+    position: relative;
+    bottom: 41px;
+    padding: 0px;
+
+}
+
+/* Botões página local Bot*/
+.botoesBot {
+    text-align: center;
+    position: relative;
+    top: 22px;
+    padding: 0px;
+}
+
+
+/*Botões style top*/
+.botoesTop .voltarTop {
+    position: relative;
+    right: 160px;
+    background-color: white;
+}
+
+.botoesTop .indexBotton {
+    position: relative;
+    text-align: center;
+    background-color: white;
+
+}
+
+.botoesTop .proximaTop {
+    position: relative;
+    left: 160px;
+    background-color: white;
+
+}
+
+/*Botões style bot*/
+
+.botoesBot .voltarBot {
+    position: relative;
+    right: 160px;
+    background-color: white;
+}
+
+.botoesBot .indexBot {
+    position: relative;
+    text-align: center;
+    background-color: white;
+
+}
+
+.botoesBot .proximaBot {
+    position: relative;
+    left: 160px;
+    background-color: white;
+
+}
+
+/*Img floco.icon*/
+.flocoIcon {
+    margin: 0% 50%;
+    height: 10px;
+}
+
+/*Style páginas*/
+.capitulo {
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    font-family: "calibri";
+    color: black;
+}
+
+
+ /* index site */
+
+
+ 
+ ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+}
+
+li {
+    position: relative;
+}
+
+li a {
+    border: solid black 0.5px;
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    background: rgb(0, 160, 255);
+    color: black;
+    border-radius: 100px;
+    margin: 1px;
+}
+
+li a:hover {
+    background: rgb(0, 150, 255);
+}
+
+li ol {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.visible {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    background-color: #f7f5d3;
+    padding: 10px;
+    margin: 0% 20%;
+    border-radius: 8px;
+}
